@@ -1,0 +1,135 @@
+.footer-background {
+    background-color: $seventh-color;
+    padding: 60px 0;
+}
+
+.footer-block {
+    display: flex;
+    gap: 70px;
+    align-items: baseline;
+}
+
+.footer-element-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.footer-link {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: $sixth-color;
+    text-decoration: none;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+
+address {
+    margin-top: 20px;
+}
+
+.footer-navigation {
+    padding: 0px;
+    list-style-type: none;
+
+    &__line:not(:first-child) {
+        margin-top: 9px;
+    }
+}
+
+.footer-map {
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $sixth-color;
+    text-decoration: none;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-mail,
+.footer-number {
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-map:hover,
+.footer-mail:hover,
+.footer-number:hover {
+    color: $second-color;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer-map:focus,
+.footer-mail:focus,
+.footer-number:focus {
+    color: $second-color;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-paragraph {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $sixth-color;
+}
+
+.footer-element-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-icon {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 20px;
+    gap: 10px;
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        fill: $sixth-color;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        width: 44px;
+        height: 44px;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+    }
+    
+    &__link:hover {
+        background: $second-color;
+    }
+    
+    &__link:focus {
+        background: $second-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+}
+

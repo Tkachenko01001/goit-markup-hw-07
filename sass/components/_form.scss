@@ -1,0 +1,170 @@
+.data-form {
+    position: absolute;
+
+    &__header {
+        font-family: "Roboto";
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 0.03em;
+        margin-top: 40px;
+    }
+
+    &__paragraph {
+        font-family: "Roboto";
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+        color: $fifth-color;
+        margin-bottom: 4px;
+        width: 22px;
+        height: 14px;
+    }
+}
+
+.inputs {
+    margin-top: 12px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.form-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.text-field {
+    position: relative;
+
+    &__icon {
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    &__input {
+        box-sizing: border-box;
+        width: 448px;
+        height: 40px;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+        outline: none;
+        resize: none;
+        cursor: pointer;
+        padding-left: 42px;
+    }
+}
+
+.text-field__input:focus {
+    border: 1px solid $second-color;
+}
+
+.text-field__input:focus + .text-field__icon {
+    fill: $second-color;
+}
+
+.checkbox {
+    width: 425px;
+    height: 24px;
+    margin-left: 52px;
+
+    &__lable {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    &__input {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+    
+}
+
+.checkbox__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 15px;
+    border: 2px solid $first-color;
+    border-radius: 2px;
+    margin-right: 8.38px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.checkbox__input:checked + .checkbox__icon {
+    background-color: $second-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
+}
+
+.checkbox__text {
+    font-family: "Roboto";
+    width: 400.62px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: $fifth-color;
+}
+
+.checkbox__link {
+   text-decoration-line: underline;
+   color: $second-color;
+}
+
+.form-button {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: $sixth-color;
+    margin-top: 30px;
+    margin-left: 164px;
+    width: 200px;
+    height: 50px;
+    background: $second-color;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+    width: 448px;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.comment {
+    padding-left: 16px;
+    padding-top: 12px;
+    outline: none;
+    resize: none;
+    cursor: pointer;
+
+    &::placeholder {
+        font-family: "Roboto";
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+        color: rgba(117, 117, 117, 0.5);
+    }
+
+    &:focus {
+        border: 1px solid $second-color;
+        border-radius: 4px;
+    }
+}

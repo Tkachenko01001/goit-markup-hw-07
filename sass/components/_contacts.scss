@@ -1,0 +1,51 @@
+.mail-link {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+    color: $fifth-color;
+    text-decoration: none;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover{
+        color: $second-color;
+    }
+
+    &:hover .header-svg, &:focus .header-svg {
+        fill: $second-color;
+    } 
+}
+
+.header-svg {
+    fill: $fifth-color;
+    margin-right: 10px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tel-link {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+    color: $fifth-color;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover .header-svg, &:focus .header-svg {
+        fill: $second-color;
+    } 
+    
+    &:hover{
+        color: $second-color;
+    }
+}

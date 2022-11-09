@@ -1,0 +1,39 @@
+body {
+    font-family: "Roboto", "Raleway";
+    color: $first-color;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0px;
+}
+
+section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

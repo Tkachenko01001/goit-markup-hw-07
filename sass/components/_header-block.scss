@@ -1,0 +1,33 @@
+
+.nave-block {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.nav--list {
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    margin-left: 93px;
+    margin-right: auto;
+}
+
+.line__nav--list {
+    margin-right: 50px;
+}
+
+.contacts--list {
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    margin-left: auto;
+}
+
+.header-border {
+    border-bottom: 1px solid $fourth-color;
+    padding: 24px 0 25px;
+}

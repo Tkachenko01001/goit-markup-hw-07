@@ -1,0 +1,35 @@
+/*underline webstudio page*/
+
+.list__link--underline {
+    position: relative;
+    color: $second-color;
+
+    &::after {
+        content: " ";
+        display: block;
+        position: absolute;
+        width: 48px;
+        height: 4px;
+        background: $second-color;
+        border-radius: 2px;
+        margin-top: 28px;
+    }
+}
+
+/*underline portfolio page*/
+
+.list__link--underline-2 {
+    position: relative;
+    color: $second-color;
+
+    &::after {
+        content: " ";
+        display: block;
+        position: absolute;
+        width: 78px;
+        height: 4px;
+        background: $second-color;
+        border-radius: 2px;
+        margin-top: 28px;
+    }
+}
