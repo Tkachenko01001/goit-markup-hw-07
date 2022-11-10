@@ -105,7 +105,6 @@
     color: $sixth-color;
 }
 
-
 .text-cards {
     margin: 0px;
     padding-top: 20px;
@@ -116,22 +115,23 @@
     border-left: 1px solid $tenth-color;
     border-right: 1px solid $tenth-color;
     border-bottom: 1px solid $tenth-color;
-
-    &__header {
-        font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 36px;
-        letter-spacing: 0.06em;
-    }
-    
-    &__paragraph {
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 30px;
-        letter-spacing: 0.03em;
-        color: $fifth-color;
-        margin-top: 4px;
-    }
 }
+
+.text-cards__header {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+    
+.text-cards__paragraph {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: $fifth-color;
+    margin-top: 4px;
+}
+

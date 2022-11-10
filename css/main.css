@@ -659,6 +659,7 @@ img {
 .data-form {
   position: absolute;
 }
+
 .data-form__header {
   font-family: "Roboto";
   text-align: center;
@@ -666,6 +667,7 @@ img {
   letter-spacing: 0.03em;
   margin-top: 40px;
 }
+
 .data-form__paragraph {
   font-family: "Roboto";
   font-size: 12px;
@@ -1273,6 +1275,7 @@ address {
   border-right: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
 }
+
 .text-cards__header {
   font-family: "Roboto";
   font-weight: 700;
@@ -1280,6 +1283,7 @@ address {
   line-height: 36px;
   letter-spacing: 0.06em;
 }
+
 .text-cards__paragraph {
   font-family: "Roboto";
   font-weight: 400;

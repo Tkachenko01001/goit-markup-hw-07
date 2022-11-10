@@ -1,25 +1,25 @@
 .data-form {
     position: absolute;
-
-    &__header {
-        font-family: "Roboto";
-        text-align: center;
-        font-size: 20px;
-        letter-spacing: 0.03em;
-        margin-top: 40px;
-    }
-
-    &__paragraph {
-        font-family: "Roboto";
-        font-size: 12px;
-        line-height: 14px;
-        letter-spacing: 0.01em;
-        color: $fifth-color;
-        margin-bottom: 4px;
-        width: 22px;
-        height: 14px;
-    }
 }
+
+.data-form__header {
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    margin-top: 40px;
+    }
+
+.data-form__paragraph {
+    font-family: "Roboto";
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: $fifth-color;
+    margin-bottom: 4px;
+    width: 22px;
+    height: 14px;
+    }
 
 .data-form__inputs {
     margin-top: 12px;
