@@ -1,4 +1,4 @@
-.logo {
+.navigation__logo {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
@@ -8,8 +8,8 @@
     text-decoration: none;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-    &__text {
-        color: $second-color;
-    }
+.navigation__text {
+    color: $second-color;
 }

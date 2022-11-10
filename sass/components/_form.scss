@@ -21,71 +21,78 @@
     }
 }
 
-.inputs {
+.data-form__inputs {
     margin-top: 12px;
     margin-right: 40px;
     margin-left: 40px;
     margin-bottom: 20px;
 }
 
-.form-field {
+.data-form__field {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
 }
 
-.text-field {
+.data-form__text {
     position: relative;
-
-    &__icon {
-        position: absolute;
-        top: 50%;
-        left: 15px;
-        transform: translateY(-50%);
-        cursor: pointer;
-    }
-
-    &__input {
-        box-sizing: border-box;
-        width: 448px;
-        height: 40px;
-        border: 1px solid rgba(33, 33, 33, 0.2);
-        border-radius: 4px;
-        outline: none;
-        resize: none;
-        cursor: pointer;
-        padding-left: 42px;
-    }
 }
 
-.text-field__input:focus {
-    border: 1px solid $second-color;
+.data-form__icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
 }
 
-.text-field__input:focus + .text-field__icon {
-    fill: $second-color;
+.data-form__input {
+    box-sizing: border-box;
+    width: 448px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    outline: none;
+    resize: none;
+    cursor: pointer;
+    padding-left: 42px;
+
+    &:focus {
+        border: 1px solid $second-color;
+    }
+    
+    &:focus + .data-form__icon {
+        fill: $second-color;
+    }
 }
 
 .checkbox {
     width: 425px;
     height: 24px;
     margin-left: 52px;
+}
 
-    &__lable {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+.checkbox__lable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
     
-    &__input {
-        appearance: none;
-        -webkit-appearance: none;
-        -moz-appearance: none;
+.checkbox__input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    &:checked + .checkbox__icon {
+        background-color: $second-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        border: none;
     }
     
 }
-
+    
 .checkbox__icon {
     display: flex;
     justify-content: center;
@@ -98,13 +105,6 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
-}
-
-.checkbox__input:checked + .checkbox__icon {
-    background-color: $second-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    border: none;
 }
 
 .checkbox__text {

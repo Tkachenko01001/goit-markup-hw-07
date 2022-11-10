@@ -37,11 +37,12 @@
     border: none;
     margin-left: 12px;
     cursor: pointer;
-
-    &__icon {
-        margin-left: 10px;
-    }
 }
+
+.footer-button__icon {
+    margin-left: 10px;
+}
+
 
 .button-display {
     display: flex;

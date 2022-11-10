@@ -1,4 +1,10 @@
-.company-card {
+.list-advent {
+    display: flex;
+    padding-left: 0px;
+    gap: 30px;
+}
+
+.list-advent__card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,17 +15,11 @@
     height: 120px;
 }
 
-.list--advent {
-    display: flex;
-    padding-left: 0px;
-    gap: 30px;
-}
-
-.line__list--advent {
+.list-advent__line {
     width: 270px;
 }
 
-.header__list--advent {
+.list-advent__header {
     font-family: "Roboto";
     font-weight: 700;
     font-size: 14px;
@@ -29,8 +29,9 @@
     padding-bottom: 10px;
 }
 
-.paragraph__list--advent {
+.list-advent__paragraph {
     font-family: "Roboto";
+    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;

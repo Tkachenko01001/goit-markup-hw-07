@@ -1,4 +1,4 @@
-.overlay-services {
+.services-list__overlay {
     position: relative;
     display: flex;
     justify-content: center;
@@ -11,26 +11,27 @@
         height: 70px;
         background-color: rgba(47, 48, 58, 0.8);
     }
-
-    &__paragraph {
-        font-family: "Roboto";
-        position: absolute;
-        bottom: 0;
-        margin: 0;
-        padding: 27px 0;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.143;
-        text-transform: uppercase;
-        color: $sixth-color;
-    }
 }
+
+.services-list__paragraph {
+    font-family: "Roboto";
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 27px 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    text-transform: uppercase;
+    color: $sixth-color;
+    }
+
 
 .services {
     padding-top: 0;
 }
 
-.webtudio-headers {
+.services__headers {
     font-family: "Roboto";
     font-weight: 700;
     font-size: 36px;
@@ -39,7 +40,7 @@
     text-align: center;
 }
 
-.services--list {
+.services-list {
     display: flex;
     padding-left: 0px;
     gap: 30px;

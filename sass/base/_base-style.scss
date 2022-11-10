@@ -3,10 +3,10 @@ body {
     color: $first-color;
 }
 
-.list {
+ul {
     list-style-type: none;
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
 }
 
 .container {
@@ -22,8 +22,8 @@ h3,
 h4,
 h5,
 h6,
-p,
-ul {
+p
+ {
     margin: 0px;
 }
 

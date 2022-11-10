@@ -16,12 +16,12 @@
         color: $second-color;
     }
 
-    &:hover .header-svg, &:focus .header-svg {
+    &:hover .contacts-list__icon, &:focus .contacts-list__icon {
         fill: $second-color;
     } 
 }
 
-.header-svg {
+.contacts-list__icon {
     fill: $fifth-color;
     margin-right: 10px;
     transition-duration: 250ms;
@@ -41,7 +41,7 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover .header-svg, &:focus .header-svg {
+    &:hover .contacts-list__icon, &:focus .contacts-list__icon{
         fill: $second-color;
     } 
     

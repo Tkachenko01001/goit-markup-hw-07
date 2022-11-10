@@ -43,13 +43,15 @@
     border-radius: 50%;
     margin-left: 490px;
     margin-top: 8px;
+}
 
-    &__icon {
-        fill: $third-color;
-        cursor: pointer;
-    }
-    
-    &__icon:hover {
-        fill: $second-color;
+.modal-close__icon {
+    fill: $third-color;
+    cursor: pointer;
+
+    &:hover {
+    fill: $second-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 }

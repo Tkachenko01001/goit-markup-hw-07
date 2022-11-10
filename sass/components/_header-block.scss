@@ -1,5 +1,5 @@
 
-.nave-block {
+.nav-block {
     display: flex;
 }
 
@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-.nav--list {
+.nav-list {
     display: flex;
     align-items: center;
     padding-left: 0px;
@@ -16,11 +16,11 @@
     margin-right: auto;
 }
 
-.line__nav--list {
+.nav-list__line {
     margin-right: 50px;
 }
 
-.contacts--list {
+.contacts-list {
     display: flex;
     align-items: center;
     padding-left: 0px;
